@@ -1,6 +1,4 @@
 import asyncio
-import os.path
-from utils import input_output
 
 
 async def send_to_anonymizer_and_receive(ip, port, file):
@@ -17,7 +15,10 @@ async def send_to_anonymizer_and_receive(ip, port, file):
     print('Close the connection')
     writer.close()
     await writer.wait_closed()
+    f = open('received.csv', 'wb')
+    f.write(data)
+    f.close()
 
 if __name__ == '__main__':
-    f = bytes(444)
+    f = bytes(1)
     asyncio.run(send_to_anonymizer_and_receive('127.0.0.1', 5556, f))
