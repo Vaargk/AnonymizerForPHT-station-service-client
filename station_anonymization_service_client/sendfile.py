@@ -27,8 +27,9 @@ async def send_to_anonymizer_and_receive(ip, port, table_file, key_file):
 
 if __name__ == '__main__':
     encrypt_flags_input: str = ''
-    while encrypt_flags_input != 'y' and encrypt_flags_input != 'n':
-        encrypt_flags_input = input('Do you want to encrypt the flags of the dataframe? (y,n)')
+    # while encrypt_flags_input != 'y' and encrypt_flags_input != 'n':
+    #     encrypt_flags_input = input('Do you want to encrypt the flags of the dataframe? (y,n)')
+    encrypt_flags_input = 'y' # no input required
     if encrypt_flags_input == 'y':
         key_path = os.path.abspath(input(f"Please provide the absolute path to the public key of the central service!"))
         f = open(key_path, 'rb')
