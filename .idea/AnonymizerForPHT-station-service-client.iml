@@ -10,5 +10,6 @@
     <orderEntry type="module" module-name="AnonymizerForPHT-station-service" />
     <orderEntry type="module" module-name="AnonymizerForPHT-central-station-service-data_preparer" />
     <orderEntry type="module" module-name="AnonymizerForPHT-central-station-service-data_cleaner" />
+    <orderEntry type="module" module-name="Synthesizer" />
   </component>
 </module>

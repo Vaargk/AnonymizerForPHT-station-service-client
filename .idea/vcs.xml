@@ -5,5 +5,6 @@
     <mapping directory="$PROJECT_DIR$/../AnonymizerForPHT-central-station-service-data_cleaner" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../AnonymizerForPHT-central-station-service-data_preparer" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../AnonymizerForPHT-station-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Synthesizer" vcs="Git" />
   </component>
 </project>

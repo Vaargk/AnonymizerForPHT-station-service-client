@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/../AnonymizerForPHT-central-station-service-data_preparer/.idea/AnonymizerForPHT-central-station-service-data_preparer.iml" filepath="$PROJECT_DIR$/../AnonymizerForPHT-central-station-service-data_preparer/.idea/AnonymizerForPHT-central-station-service-data_preparer.iml" />
       <module fileurl="file://$PROJECT_DIR$/../AnonymizerForPHT-station-service/.idea/AnonymizerForPHT-station-service.iml" filepath="$PROJECT_DIR$/../AnonymizerForPHT-station-service/.idea/AnonymizerForPHT-station-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/AnonymizerForPHT-station-service-client.iml" filepath="$PROJECT_DIR$/.idea/AnonymizerForPHT-station-service-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Synthesizer/.idea/Synthesizer.iml" filepath="$PROJECT_DIR$/../Synthesizer/.idea/Synthesizer.iml" />
     </modules>
   </component>
 </project>
