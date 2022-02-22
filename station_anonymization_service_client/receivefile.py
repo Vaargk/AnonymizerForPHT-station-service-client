@@ -15,7 +15,7 @@ async def send_to_anonymizer_and_receive(ip, port, file):
     print('Close the connection')
     writer.close()
     await writer.wait_closed()
-    f = open('received.csv', 'wb')
+    f = open('test_insert.csv', 'wb')
     f.write(data)
     f.close()
 
