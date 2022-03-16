@@ -1,0 +1,14 @@
+2022-03-07 16:25:48,184 140364583274048 Using selector: EpollSelector
+2022-03-07 16:25:48,185 140364574881344 Using selector: EpollSelector
+2022-03-07 16:25:48,191 140364583274048 The receive input server started on ('0.0.0.0', 5555)
+2022-03-07 16:25:48,191 140364574881344 The output server started on ('0.0.0.0', 5556)
+2022-03-07 16:25:48,198 140364488894016  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-03-07 16:25:48,199 140364488894016  * Running on http://10.109.226.205:5000/ (Press CTRL+C to quit)
+2022-03-07 16:26:23,760 140364583274048 Receive data from ('127.0.0.1', 42134)
+2022-03-07 16:26:23,764 140364583274048 File 1.csv successfully saved
+2022-03-07 16:26:29,161 140364497286720 127.0.0.1 - - [07/Mar/2022 16:26:29] "GET / HTTP/1.1" 200 -
+2022-03-07 16:26:37,203 140364462671424 Preparing for 1.csv started.
+2022-03-07 16:26:37,210 140364497286720 127.0.0.1 - - [07/Mar/2022 16:26:37] "POST / HTTP/1.1" 200 -
+2022-03-07 16:26:37,576 140364462671424 1743 partitions are smaller than 9 people
+2022-03-07 16:27:19,938 140364462671424 Preparation of 1.csv took 0.0 min 42.73518896102905 sec

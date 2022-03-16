@@ -1,0 +1,28 @@
+2022-03-07 16:17:43,451 140283525027648 Started the anonymization controller
+2022-03-07 16:17:43,451 140283525027648 Controller successfully created the input and output folders!
+2022-03-07 16:17:43,454 140282882418240 Using selector: EpollSelector
+2022-03-07 16:17:43,454 140282874025536 Using selector: EpollSelector
+2022-03-07 16:17:43,455 140282882418240 The receive input server started on ('0.0.0.0', 5555)
+2022-03-07 16:17:43,456 140282874025536 The output server started on ('0.0.0.0', 5556)
+2022-03-07 16:17:43,470 140282890810944  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-03-07 16:17:43,470 140282890810944  * Running on http://10.109.226.205:5000/ (Press CTRL+C to quit)
+2022-03-07 16:18:31,171 140282882418240 Key provided saving now
+2022-03-07 16:18:31,171 140282882418240 Stored the public key if provided
+2022-03-07 16:18:31,171 140282882418240 Receive data from ('127.0.0.1', 42130)
+2022-03-07 16:18:31,174 140282882418240 File 1.csv successfully saved
+2022-03-07 16:18:31,507 140283525027648 Found file 1.csv but has no config, skipping until config is found
+2022-03-07 16:18:35,855 140282865632832 127.0.0.1 - - [07/Mar/2022 16:18:35] "GET / HTTP/1.1" 200 -
+2022-03-07 16:18:44,818 140282865632832 127.0.0.1 - - [07/Mar/2022 16:18:44] "POST / HTTP/1.1" 200 -
+2022-03-07 16:18:45,522 140283525027648 Recognised a new file to be anonymized: 1.csv
+2022-03-07 16:18:59,713 140283525027648 The insertion took 0.0 min 14.157501697540283 sec
+2022-03-07 16:19:05,188 140283525027648 Partition successfully finished, number of partitions: 263
+2022-03-07 16:19:05,765 140283525027648 Partitions with synthetic and original data now only contain minimum amount of synthetic data
+2022-03-07 16:19:06,336 140283525027648 Numerical Attributes successfully aggregated
+2022-03-07 16:19:07,151 140283525027648 Categorical Attributes successfully aggregated
+2022-03-07 16:19:07,259 140283525027648 Unused synthetic partitions removed
+2022-03-07 16:19:07,262 140283525027648 The anonymization with the mondrian algorithm took 0.0 min 7.512701749801636 sec
+2022-03-07 16:19:07,263 140283525027648 Found public key to encrypt the flags
+2022-03-07 16:19:07,965 140283525027648 The encryption of the flags took 0.0 min 0.7024228572845459 sec
+2022-03-07 16:19:09,734 140283525027648 File 1.csv successfully anonymized and stored
+2022-03-07 16:19:09,736 140283525027648 Anonymization started for file 1.csv
